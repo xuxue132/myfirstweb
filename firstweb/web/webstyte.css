@@ -1,0 +1,278 @@
+.head{
+    height: 145px;
+}
+body{
+    font-family:"微软雅黑" ;
+    font-size: 16px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.headerLeft{
+    height: 80px;
+    width: 260px;
+    padding: 32px 0px;
+}
+
+.headerRight{
+    padding-top: 40px;
+    margin-left: 402px;
+}
+
+.headNavigation{
+    color: darkturquoise;
+    word-spacing: 33px;
+}
+
+.headNavigation li{
+    display: inline;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.backImg{
+    height: 361px;
+    text-align: center;
+    background-color: #3286d7;
+}
+
+.opacityDiv{
+    background-color: black;
+    height: 30px;
+    opacity: 0.75;
+    position: relative;
+    top: -34px;
+}
+
+.circleBox, .noticeColum{
+    color: #999;
+    margin: 0 auto;
+    weight:1005px;
+    height: 400px;
+}
+.noticeColumn, .imgColumn, .logoColumn, .policyColumn, .stateColumn, .circleBox, .head{
+    width:1005px;
+    margin: 0 auto;
+    color: #999;
+}
+.circle{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: relative;
+    left: 46%;
+    margin: 10px 0 0 20px;
+}
+
+.columnName{
+    border-left: #999 solid 4px;
+    font-size:20px;
+    padding-left:9px;
+}
+
+.dateBox{
+    width:66px;
+    height:85px;
+}
+
+.dataDay{
+    font-size: 22px;
+    color: #666;
+    position: relative;
+    left: 20px;
+    top: -63px;
+}
+
+.yearAndMonth{
+    font-size:14px;
+    position: relative;
+    top: -49px;
+    left: 5px;
+}
+
+.content{
+    width:213px;
+    height:120px;
+    padding-left:15px;
+    margin-top: -5px;
+}
+
+.columnTitle{
+    padding:40px 60px;
+    color: #333;
+    font-size: 16px;
+}
+
+.paralContent{
+    font-size: 13px;
+    color: #555;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.stateColumnBox{
+    background-color: #e2e2e1;
+    height: 388px;
+}
+
+.picBox{
+    height: 246px;
+    width: 305px;
+    margin-right: 45px;
+}
+
+.pic1, .pic2, .pic3{
+    height:225px;
+    width:305px;
+}
+
+.paralSmall{/*园区动态图面下面小字的样式*/
+    font-size:14px;
+    color:#333;
+}
+
+.paralTime{
+    font-size:14px;
+    margin-top: 2px;
+}
+
+.timeBox{
+    position: relative;
+    top: 1px;
+}
+
+.contentBox{
+    width: 295px;
+    height: 120px;
+    padding-left: 60px;
+}
+
+.pic1{
+    background-image:url('picture/First.png');
+}
+
+.pic2{
+    background-image:url('picture/2.png');
+}
+
+.pic3{
+    background-image:url('picture/3.png');
+}
+
+.leftNewsBox, .rightNewsBox{
+    height: 150px;
+    margin: -10px 0 23px 0;
+}
+
+.news{
+    width: 455px;
+    height: 155px;
+}
+
+.paralTimeTwo{/*优惠政策时间样式*/
+    font-size:14px;
+}
+
+.imgColumnBox{
+    background-color:#e2e2e1;
+    height:315px;
+}
+
+.imgColumn{
+    font-size:0px;
+}
+
+.policyColumn{
+    height: 430px;
+    width: 1000px;
+}
+
+.leftButton{
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 64px;
+}
+
+.rightButton{
+    margin-left: -70px;
+    position: absolute;
+    margin-top: 64px;
+}
+
+.logoColumn{
+    height:404px;
+}
+
+.RClogo{
+    padding: 10px 60px 35px 80px;
+    border-bottom: solid #ccc 1px;
+}
+
+.birdLogo{
+    padding: 30px 60px 35px 60px;
+    border-style: none solid solid solid ;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
+.CQhotLogo{
+    padding: 10px 60px 35px 60px;
+    border-bottom: solid #ccc 1px;
+}
+
+.dragonLogo{
+    padding: 27px 87px 30px 89px;
+}
+
+.JDLogo{
+    padding: 27px 110px 15px 123px;
+    border-style: none solid ;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
+.sinaLogo{
+    padding: 27px 20px 15px 50px;
+}
+
+.foot{
+    height: 100px;
+}
+
+.paralFoot{
+    padding-top:40px;
+    text-align:center;
+    color:#555;
+    line-height: 25px;
+}
+
+.content li{/*最新公告里面的小标题*/
+    color:#3399cc;
+    /*list-style-type: none;*/
+}
+
+.news span{
+    color:#3399cc;
+    line-height: 35px;
+}
+
+.headNavigation li{
+    display: inline;
+}
+
+
+li:hover {
+    color: #6db0d7;
+}
